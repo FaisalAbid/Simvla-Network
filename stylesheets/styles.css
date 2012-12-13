@@ -2,7 +2,11 @@
 
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:14px
+  line-height: 1.5em;
+  font-family: "brandon-grotesque",sans-serif;
+  font-style: normal;
+  font-weight: 400;
   color:#777;
   font-weight:300;
 }
@@ -11,8 +15,8 @@ h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
   font-family: "proxima-nova",sans-serif;
-font-style: normal;
-font-weight: 800;
+  font-style: normal;
+  font-weight: 800;
 }
 
 p, ul, ol, table, pre, dl {
