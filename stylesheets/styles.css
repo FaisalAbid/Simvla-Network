@@ -2,11 +2,7 @@
 
 body {
   padding:50px;
-  font-size:14px
-  line-height: 1.5em;
-  font-family: "brandon-grotesque",sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
 }
@@ -14,14 +10,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
-  font-family: "proxima-nova",sans-serif;
-  font-style: normal;
-  font-weight: 800;
 }
 
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
-  font-size: 18px;
 }
 
 h1, h2, h3 {
@@ -38,11 +30,10 @@ h2 {
 
 h3, h4, h5, h6 {
   color:#494949;
-  font-size: 23px;
 }
 
 a {
-  color:#14b694;
+  color:#39c;
   font-weight:400;
   text-decoration:none;
 }
@@ -148,8 +139,8 @@ header ul a {
 }
 
 strong {
-  color:#49494A;
-  font-weight:400;
+  color:#222;
+  font-weight:700;
 }
 
 header ul li + li {
@@ -175,7 +166,7 @@ section {
 }
 
 small {
-  font-size:13px;
+  font-size:11px;
 }
 
 hr {
