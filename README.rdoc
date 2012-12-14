@@ -1,5 +1,5 @@
 For new project cloning:
-  git clone https://github.com/iamues/simvlantwrk.git
+  git clone https://github.com/iamues/Simvla-Network.git
 
 For existing project:
   git pull
