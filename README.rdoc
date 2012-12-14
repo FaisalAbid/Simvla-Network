@@ -1,9 +1,12 @@
 For new project cloning:
+  # Install mysql2 dependencies. See https://github.com/brianmario/mysql2
+
+  # Clone the repo
   git clone https://github.com/iamues/Simvla-Network.git
 
 For existing project:
+  cd Simvla-Network
   git pull
-  cd Simvla
   bundle install
   rake db:create
   rake db:migrate

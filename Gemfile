@@ -26,9 +26,3 @@ end
 gem 'therubyracer', :platforms => :ruby
 gem 'RedCloth', :require => 'redcloth'
 gem 'syntax_highlighter-rails', :path =>"#{File.expand_path(File.dirname(__FILE__))}/vendor/gems/syntax_highlighter-rails"
-<<<<<<< HEAD
-gem 'newrelic_rpm'
-
-gem 'debugger', group: [:development, :test]
-=======
->>>>>>> somefix

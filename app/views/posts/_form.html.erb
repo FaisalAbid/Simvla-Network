@@ -40,12 +40,8 @@
             <a href="#" class="button <%= @post.is_public ? 'checked' : '' %>" data-id="<%=@post.id%>" data-action="true">Public</a>
         </div>
          <%=link_to "External Source",'#', :style => "background: #F76;",:class=>'button show_hide black'%>
-<<<<<<< HEAD
-         <%= f.submit "Save", :style => "font-size: 12px; width: 118px;",:class=>"button" %>
-=======
          <%=link_to "Preview", "#", :id => "preview1", :data => {:href => preview_post_path(@post)}, :class=>'button show_hide black'%>
          <%=link_to "Save", "#", :id => "save", :class=>'button show_hide black'%>
->>>>>>> somefix
          <%=link_to "Delete", @post,confirm: 'Are you sure?',method: :delete,:class=>"button remove black"%>
          <%=link_to posts_path,:class=>'button black' do %>
            <i class="icon-list-ul" style="font-size: 20px; color: white; margin-top: 5px;"></i>
