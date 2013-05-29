@@ -62,8 +62,4 @@ $(document).ready(function() {
         }
     });
 
-    $(".remove").click(function(){
-        confirm('Are you sure?');
-    });
-
 });
